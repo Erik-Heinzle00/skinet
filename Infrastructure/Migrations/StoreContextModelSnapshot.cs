@@ -62,7 +62,7 @@ namespace Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Type");
+                    b.ToTable("Products");
                 });
 #pragma warning restore 612, 618
         }
