@@ -1,13 +1,8 @@
-using System;
-using System.Runtime.CompilerServices;
-using System.Security.Cryptography.X509Certificates;
 using Core.Entities;
 using Core.Interfaces;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.VisualBasic;
 
 namespace Infrastructure.Data;
-
 public class ProductRepository(StoreContext context) : IProductRepository
 {
     public void AddProduct(Product product)
